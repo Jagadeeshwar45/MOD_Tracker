@@ -1,0 +1,73 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+MOD.venv/
+venv/
+env/
+.venv/
+
+# VS Code / Windsurf / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Large model weights
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Images generated outputs (optional)
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.jpeg
+
+# JSON generated outputs
+outputs/**/*.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keep output folders but ignore contents
+outputs/*
+!outputs/.gitkeep
+!outputs/screenshots/
+!outputs/visualisation/
+
+# Keep selected showcase files if needed
+!outputs/screenshots/*.png
+!outputs/screenshots/*.jpg
+!outputs/visualisation/*.png
+
+# Keep README
+!README.md
