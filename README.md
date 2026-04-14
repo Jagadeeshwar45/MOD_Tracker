@@ -1,7 +1,5 @@
 # Multi-Object Detection and Persistent ID Tracking in Public Sports/Event Footage
 
-## README.md
-
 # Multi-Object Detection and Persistent ID Tracking
 
 A production-style computer vision pipeline for detecting multiple subjects in public sports/event footage and assigning stable IDs across time. Built for applied AI / Computer Vision evaluation using cricket broadcast footage.
